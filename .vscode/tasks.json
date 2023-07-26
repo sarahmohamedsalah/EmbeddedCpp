@@ -1,0 +1,25 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "g++ build active file",
+            "command": "C:\\MinGW\\bin\\g++.exe",
+            "args": [
+                "-g",
+                "${workspaceFolder}/*.cpp",
+                "-I",
+                "${workspaceFolder}/*.hpp",
+                "-o",
+                "${workspaceFolder}/a.out"
+            ],
+            "options": {
+                "cwd": "C:\\MinGW\\bin"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ],
+    "version": "2.0.0"
+}
